@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+
+.steps {
+  background-color: #f7f7f7;
+  margin: 30px auto;
+  width: 600px;
+  padding: 40px 100px;
+}
+.Numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Numbers > div {
+  height: 40px;
+  aspect-ratio: 1;
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 40px 10px;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttons button {
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Numbers .active {
+  background-color: #7950f2;
+  color: #fff;
+}
+.Cross {
+  background-color: #fff;
+  outline: none;
+  border: 0;
+  font-size: 40px;
+  margin-left: 50px;
+}

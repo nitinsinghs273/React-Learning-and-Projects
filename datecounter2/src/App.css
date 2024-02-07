@@ -1,0 +1,27 @@
+.rangeStep {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondCounter {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ThirdCounter {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Reset {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}

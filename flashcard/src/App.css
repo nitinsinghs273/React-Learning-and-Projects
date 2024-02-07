@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+.Cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.Cards div {
+  height: 200px;
+  width: 300px;
+  background-color: #f7f7f7;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  aspect-ratio: 2/1;
+  border-radius: 7px;
+  cursor: pointer;
+  position: relative;
+}
+
+div.Selected {
+  border: 1px solid #e03131;
+  background-color: #e03131;
+  color: white;
+  font-weight: bold;
+}
